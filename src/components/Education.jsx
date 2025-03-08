@@ -1,10 +1,12 @@
 export default function Education() {
-    return (
-      <section>
-        <h2>Education</h2>
-        <p><strong>XYZ University</strong></p>
-        <p>Bachelor’s Degree in Computer Science (2020 - 2024)</p>
-      </section>
-    );
-  }
-  
+  return (
+    <section>
+      <h2>Education</h2>
+      <p><strong>มหาวิทยาลัยเทคโนโลยีมหานคร</strong></p>
+      <p>ปริญญาตรี<br />
+        กำลังศึกษาระดับปริญญาตรี ชั้นปีที่ 3 (เทคโนโลยีสารสนเทศและนวัตกรรมโมบายซอฟต์แวร์)
+      </p>
+      <p>เกรดเฉลี่ย : 2.19</p>
+    </section>
+  );
+}

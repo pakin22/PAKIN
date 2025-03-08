@@ -1,4 +1,4 @@
-const skills = ["HTML", "CSS", "JavaScript", "React", "Git", "Firebase"];
+const skills = ["HTML", "CSS", "JavaScript", "React", "Git", "Firebase", "figma", "expo", "flutter", "C#", "reacetnative"];
 
 export default function Skills() {
   return (

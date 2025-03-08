@@ -1,15 +1,13 @@
 const projects = [
     {
       name: "Weather App",
-      description: "A simple weather app using Open-Meteo API",
+      description: "พัฒนาเว็บพยากรณ์อากาศโดยใช้ Flutter และ Open-Meteo API",
       tech: "React, API, CSS",
-      link: "https://github.com/johndoe/weather-app",
     },
     {
-      name: "E-Commerce UI",
-      description: "Frontend of an online store",
-      tech: "React, Firebase, CSS",
-      link: "https://github.com/johndoe/ecommerce",
+      name: "Expense Tracker App",
+      description: "แอปบันทึกรายรับ-รายจ่าย  ใช้ Context API จัดเก็บข้อมูลแบบ memory และเชื่อมฐานข้อมูล backend",
+      tech: "React Native, expo,",
     }
   ];
   
@@ -23,7 +21,7 @@ const projects = [
               <h3>{project.name}</h3>
               <p>{project.description}</p>
               <p><strong>Tech:</strong> {project.tech}</p>
-              <a href={project.link}>GitHub</a>
+              
             </div>
           ))}
         </div>
